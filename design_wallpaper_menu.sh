@@ -63,7 +63,9 @@ show_menu() {
 -theme-str '
     window {
         width: 1700px;
-        background-color: #1a1633;
+        background-color: #5b4259;
+        border-radius: 10px;
+        color: #ffffff;
     }
     listview {
         layout: horizontal;
@@ -72,13 +74,13 @@ show_menu() {
         dynamic: true;
     }
 	element normal.normal {
-	    background-color: #1a1633;
+	    background-color: #5b4259;
 	}
 	element normal.active {
 	    background-color: #3a2c5a;
 	}
 	element selected.normal {
-	    background-color: #3a2c5a;
+	    background-color: #755b72;
 	}
 	element selected.active {
 	    background-color: #4a3b6d;
@@ -90,10 +92,10 @@ show_menu() {
 	    background-color: #3a2c5a;
 	}
 	element alternate.normal {
-	    background-color: #1a1633;
+	    background-color: #5b4259;
 	}
 	element alternate.active {
-	    background-color: #3a2c5a;
+	    background-color: #5b4259;
 	}
     element {
         orientation: vertical;
